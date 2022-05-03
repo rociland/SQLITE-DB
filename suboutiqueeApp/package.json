@@ -1,0 +1,33 @@
+{
+  "name": "cosmetica-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.17.2",
+    "http-errors": "~1.6.3",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11",
+    "sqlite3": "^5.0.6"
+  },
+  "description": "Este proyecto es un sistema de gestión de operaciones principales tales como registro, historial de pacientes, catálogo de productos y gestión de visitas para una clínica de cosmetología para el cuidado de piel.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giaramayo/suboutiqueeApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giaramayo/suboutiqueeApp/issues"
+  },
+  "homepage": "https://github.com/giaramayo/suboutiqueeApp#readme"
+}
